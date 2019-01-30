@@ -3,8 +3,9 @@ var filesToCache = [
     '/',
     '/index.html',
     '/css/style.css',
-    '/js/main.js',
-    '/images/*'
+    '/scripts/main.js',
+    '/images/Barcode.jpg',
+    '/images/is2-logo.png'
 ];
 
 /* Start the service worker and cache all of the app's content */
