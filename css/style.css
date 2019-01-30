@@ -16,13 +16,80 @@ html,
 .container {
     margin: auto;
     text-align: center;
+    display: block;
+}
+
+div {
+    color: #013E75;
+}
+
+.insurance-number {
+    font-size: 2em;
+    color: black;
+}
+
+.flex-rectangle {
+    position: relative;
+    border-radius: 25px;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    background: #FFFFFF;
+    border-color: #013E75;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.flex-rectangle:before {
+    content: "";
+    display: block;
+    padding-top: 25%;
 }
 
 .title {
     font-size: 3rem;
 }
 
+.id {
+    font-size: 1.5em;
+}
+
 img {
     max-width: 100%;
     height: auto;
+}
+
+.barcode {
+    width: 95%;
+    margin: 10px 5px;
+    max-width: 100%;
+}
+
+.id {
+    text-align: left;
+}
+
+.validity {
+    display: inline;
+    font-size: 1.2em;
+}
+.validity-container{
+    margin: 10px;
+}
+
+#wrapper {
+    text-align: center;
+}
+
+.horizontal-center {
+    display: inline-block;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
